@@ -3,9 +3,13 @@ Swagger Json: https://petstore.swagger.io/v2/swagger.json
 
 
 Prerequisites:
+
 Apache Maven: https://maven.apache.org/download.cgi
+
 	Used: https://downloads.apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
+
 Swagger Codegen: https://github.com/swagger-api/swagger-codegen/
+
 	Used: https://github.com/swagger-api/swagger-codegen/releases/tag/v3.0.26
 
 
