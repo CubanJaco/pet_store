@@ -2,7 +2,7 @@ Swagger: https://petstore.swagger.io/
 Swagger Json: https://petstore.swagger.io/v2/swagger.json
 
 
-Prerequisites:
+## Prerequisites
 
 Apache Maven: https://maven.apache.org/download.cgi
 
@@ -16,11 +16,12 @@ Version used in this sample: https://github.com/swagger-api/swagger-codegen/rele
 First we need to compile `swagger-codegen-cli` ussing `mvn compile` and after that `mvn package`
 
 
-SDK generated with
+## Generate SDK
 
 ```
 java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar generate -i /home/osvel/maven/pet_store.json -l java --library=retrofit2 -o /home/osvel/maven/swagger-codegen/pet_store --artifact-id io.swagger.petstore.PetStore --artifact-version 1.0.0 --api-package io.swagger.petstore.api --model-package io.swagger.petstore.model --group-id io.swagger.petstore
 ```
 
+## Compile SDK
 
 Now compile your library ussing `mvn compile` and after that `mvn package`
